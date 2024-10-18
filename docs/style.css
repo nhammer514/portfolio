@@ -10,15 +10,28 @@ div.panel{
     font-size: 30px;
 }
 
+
 #header {
     grid-area: header;
+    display: grid;
+}
+.header_deactivated{
     display: grid;
     grid-template-areas: 'logo nav';
     gap: 10px;
 }
+.header_activated{
+    text-align: center;
+    display: table-cell;
+    grid-template-areas: 'logo'
+                           'nav';
+    gap: 10px;
+    height: 60vh;
+}
+
 #main {
     grid-area: main;
-    height: 85vh;
+    height: 0vh;
 }
 #side {grid-area: side;}
 #grid-container{
@@ -43,11 +56,21 @@ div.panel{
     font-size: 4vh;
 }
 
-#nav{
+#header.header_deactivated #nav{
     text-align: right;
     margin-top: auto;
 }
-
+#header.header_activated #nav{
+    text-align: center;
+    margin-top: auto;
+}
+#header.header_activated #logo img{
+    margin: auto;
+}
+#header.header_activated #logo h1{
+    margin: auto;
+    height: 25vh;
+}
 #nav a:link, #nav a:visited{
     font-weight: 700;
     display: inline-flex;
