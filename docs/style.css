@@ -1,0 +1,84 @@
+body{
+    background-color: #333342;
+    font-family: "Baloo 2", sans-serif;
+    color: #B65DE2
+}
+
+div.panel{
+    background-color: #252530;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+#header {
+    grid-area: header;
+    display: grid;
+    grid-template-areas: 'logo nav';
+    gap: 10px;
+}
+#main {
+    grid-area: main;
+    height: 85vh;
+}
+#side {grid-area: side;}
+#grid-container{
+    display: grid;
+    grid-template-areas: 
+        'header header header'
+        'main main main'
+        'main main main';
+    gap: 5px;
+    width: 65vw;
+    margin: auto;
+}
+
+#logo{
+    height: 9vh;
+    display: flex;
+}
+#logo img{
+    height: inherit;
+}
+#logo h1{
+    font-size: 4vh;
+}
+
+#nav{
+    text-align: right;
+    margin-top: auto;
+}
+
+#nav a:link, #nav a:visited{
+    font-weight: 700;
+    display: inline-flex;
+    transition: all 0.1s ease-out;
+    text-decoration: none;
+    background-color: #333342;
+    color:#B65DE2; 
+    border: 1px #B65DE2 solid;
+    font-size: 1.75vh;
+    border-radius: 25px;
+    padding: 5px;
+    margin-left: 25px;
+    margin-bottom: 8px;
+}
+#nav a:hover{
+    background-color: #252530;
+    color:#B65DE2; 
+    border: 1px #B65DE2 solid;
+    padding: 4px;
+}
+#nav a:active{
+    background-color: #252530;
+    color:#B65DE2; 
+    border: 1px #B65DE2 solid;
+    padding: 4px;
+}
+
+#nav a img{
+    height: 2.75vh;
+}
+
+h2{
+    margin: 5px;
+}
