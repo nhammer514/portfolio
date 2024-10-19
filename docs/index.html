@@ -4,11 +4,12 @@
         <meta charset="UTF-8" />
         <title>natehammer.xyz</title>
 
-        <link rel="stylesheet" href="style_new.css"/>
+        <link rel="stylesheet" href="style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
-        <script src="scripts/panelManager.js"></script>
+        <script src="scripts/contentManager.js"></script>
+        <script src="scripts/pageChange.js"></script>
 
     </head>
     <body>
@@ -16,19 +17,18 @@
             <div id="header">
                 <div id="logo">
                     <img src="images/physkill.svg"/>
-                    <h1> natehammer.xyz </h1>
+                    <h1> physkill.xyz </h1>
                 </div>
                 <div id="nav">
-                    <button onclick="openPanel(id)" id="button-home"><img src="images/icons/about_icon.svg"/>about</button>
-                    <button onclick="openPanel(id)" id="button-blog"><img src="images/icons/blog_icon.svg"/>blog</button>
-                    <button onclick="openPanel(id)" id="button-projects"><img src="images/icons/projects_icon.svg"/>projects</button>
-                    <button onclick="openPanel(id)" id="button-resume"><img src="images/icons/resume_icon.svg"/>resume</button>
+                    <p style="color: white;"></br>Welcome to my website! To access a page, click on one of these buttons.</br></p>
+                    <button onclick="openPage(id)" id="button-about"><img src="images/icons/about_icon.svg"/>about</button>
+                    <button onclick="openPage(id)" id="button-projects"><img src="images/icons/projects_icon.svg"/>projects</button>
+                    <button onclick="openPage(id)" id="button-resume"><img src="images/icons/resume_icon.svg"/>resume</button>
                 </div>
             </div>
 
             <div id="main" class="panel">
                 <div id="content" style="display: none;">
-                    <h2 id="content_title"> Hello </h2>
                 </div>
             </div>
 
