@@ -1,7 +1,7 @@
 const pages = {
     about: 
     `
-    <h2> about </h2>
+    <h2 class="portfolio"> about </h2>
     <p> 
         My name is Nathan Hammer and I am from Pittsburgh, Pennsylvania.
         I am currently pursuing a B.A. in Digital Media, Arts, and Technology @ Penn State Behrend.
@@ -18,17 +18,17 @@ const pages = {
     `,
     blog: 
     `
-    <h2> blog </h2>
+    <h2 class="portfolio"> blog </h2>
     <p> This stuff should work. </p>
     `,
     projects: 
     `
-    <h2> projects </h2>
+    <h2 class="portfolio"> projects </h2>
     <p> Hello world! </p>
     `,
     resume: 
     `
-    <h2> resume </h2>
+    <h2 class="portfolio"> resume </h2>
     <p> :) </p>
     `
 }

@@ -1,4 +1,8 @@
 window.addEventListener('DOMContentLoaded',init,false);
 function init(){
-    alert("Hello world!")
-};
+    const exampleButton = document.getElementById('testExample');
+    exampleButton.addEventListener('click',buttonClicked,false);
+}
+function buttonClicked(){
+    alert("You clicked me!")
+}
