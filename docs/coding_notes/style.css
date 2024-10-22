@@ -1,0 +1,56 @@
+body{
+    background-color: #333342;
+    font-family: "Baloo 2", sans-serif;
+    color: #B65DE2
+}
+div.panel{
+    background-color: #252530;
+    border-radius: 25px;
+    padding: 15px;
+}
+p{
+    font-size: 1.75vh;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+ul{
+    color: white;
+}
+pre{
+    color: white;
+    border-radius: 15px;
+    background: black;
+    padding: 15px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+button{
+    cursor: pointer;
+    font-weight: 500;
+    display: inline-flex;
+    transition: all 0.25s ease-out;
+    text-decoration: none;
+    background-color: #333342;
+    color:#B65DE2;
+    border: 1px #B65DE2 solid;
+    font-size: 2vh;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 25px;
+}
+button:hover{
+    background-color: #252530;
+    color:#B65DE2;
+    border: 1px #B65DE2 solid;
+}
+button:active{
+    background-color: #252530;
+    color:#9a51be;
+    border: 1px #9a51be solid;
+}

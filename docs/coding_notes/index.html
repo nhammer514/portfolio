@@ -1,0 +1,38 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Your first JavaScript script</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="../scripts/digit400/exercise-one/example1.js" type="text/javascript"></script>
+    <script src="../scripts/digit400/exercise-one/example2.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+</head>
+    <body style="width: 60vw; margin: auto;">
+        <h1 style="text-align: center;"> DIGIT400 Javascript Exercise 1</h1>
+        <div class="panel">
+            <h2> DOMContentLoaded Event </h2>
+            <p> Event Listeners are functions that are listening for input ( or events ) coming from the HTML page. </p><br/>
+            <p> In the code below, we created an event listener. This code block is also implemented into this page.</p>
+<pre>
+window.addEventListener('DOMContentLoaded',init,false);
+function init(){
+    alert("Hello world!")
+};
+</pre>
+            <h2> Click Event </h2>
+            <p> Event Listeners can be used for a variety of different features. For instance, event listeners can be used for buttons. </p><br/>
+            <div style="margin: auto; text-align: center;"><button id="testExample"> Click me! </button></div><br/>
+            <p> The code below reflects the functionality of the button. We are grabbing all buttons on this page, assigning an event listener for each button, and triggering unique functions when they are clicked on.</p>
+<pre>
+window.addEventListener('DOMContentLoaded',init,false);
+function init(){
+    const exampleButton = document.getElementById('testExample');
+    exampleButton.addEventListener('click',buttonClicked,false);
+}
+function buttonClicked(){
+    alert("You clicked me!")
+}
+</pre>
+        </div>
+    </body>
+</html>
