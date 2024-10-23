@@ -184,7 +184,7 @@ p{
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 25px;
 }
 h2.portfolio{
     font-size: 4vh;
@@ -192,4 +192,14 @@ h2.portfolio{
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+ul{
+    font-size: 1.75vh;
+    margin: 0px;
+}
+
+hr{
+    width: 40%;
+    color:#B65DE2; 
 }
