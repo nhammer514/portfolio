@@ -2,13 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Your first JavaScript script</title>
-    <link rel="stylesheet" href="style.css"/>
-    <script src="../scripts/digit400/exercise-one/example1.js" type="text/javascript"></script>
-    <script src="../scripts/digit400/exercise-one/example2.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../style.css"/>
+    <script src="../../scripts/digit400/exercise-one/example1.js" type="text/javascript"></script>
+    <script src="../../scripts/digit400/exercise-one/example2.js" type="text/javascript"></script>
+    <script src="../../scripts/digit400/exercise-one/example3.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
 </head>
     <body style="width: 60vw; margin: auto;">
         <h1 style="text-align: center;"> DIGIT400 Javascript Exercise 1</h1>
+        <div style="margin: auto; text-align: center;"><a href="../../index.html"> Return to Homepage </a></div>
         <div class="panel">
             <h2> DOMContentLoaded Event </h2>
             <p> Event Listeners are functions that are listening for input ( or events ) coming from the HTML page. </p><br/>
@@ -31,6 +33,20 @@ function init(){
 }
 function buttonClicked(){
     alert("You clicked me!")
+}
+</pre>
+            <h2> Query Selector & Loops  </h2>
+            <p> There are many ways to iterate through elements and arrays. </p><br/>
+            <p> Outside of using a "for loop" function, you can use the "forEach()" function, in conjunction with the arrow function syntax. </p><br/>
+            <div style="margin: auto; text-align: center;"><button onclick="grabNumOfElement('h2')"> Grab all headers on this page </button></div><br/>
+            <p> Keep in mind, the button in this example is not using an eventListener. Instead, we are calling the grabNumOfElement function inside the HTML (view source). </p><br/>
+<pre>
+function grabNumOfElement(tagName){
+    let numOfElement = 0
+    document.querySelectorAll(tagName).forEach( header => {
+      numOfElement += 1;
+    })
+    alert("Number of " + tagName + " elements: " + numOfElement);
 }
 </pre>
         </div>

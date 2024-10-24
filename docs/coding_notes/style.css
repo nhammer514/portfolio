@@ -54,3 +54,17 @@ button:active{
     color:#9a51be;
     border: 1px #9a51be solid;
 }
+
+a{
+    color:#B65DE2;
+    text-align: center;
+    margin: auto;
+}
+
+a:hover{
+    color: #633178;
+}
+
+a:visited{
+    color:#B65DE2;
+}
