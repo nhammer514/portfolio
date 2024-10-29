@@ -1,3 +1,4 @@
+// THE PAGES ON THE WEBSITE ARE NOT INTEGRATED IN THE HTML. INSTEAD, THEY GRAB THE ELEMENTS FROM HERE!
 const pages = {
     about: 
     `
@@ -13,8 +14,9 @@ const pages = {
             I have always been curious about the inner-workings of computers and video games.
             At a young age, I taught myself how to make levels for Source engine games, like Team Fortress 2 . 
             It sparked my passion for games that synergize creativity and mechanical design. 
-            Later, I started to experiment with game servers and mods, developing an understanding of server infrastructure and programming. 
-            Whenever I have the free time, I like to work on game prototypes or engage with spontaneous coding challenges.
+            Later, I started to experiment with game servers and mods, developing an understanding of server infrastructure and programming.
+            Now, it is the primary subject I am studying in college. 
+            Whenever I have the free time, I like to work on game prototypes or engage in spontaneous coding challenges, in and outside of class.
         </p>
         <p>
             I am always exercising my skill set -- in and outside of school.
@@ -22,7 +24,7 @@ const pages = {
         </p>
     </div>
     <div style="display: flex;">
-        <div style="flex: 40%;">
+        <div style="flex: 50%;">
             <h2 class="portfolio"> socials </h2>
             <hr/>
             <p> I can be found on various social medias and forums:
@@ -32,14 +34,12 @@ const pages = {
                 <li>Linkedin</li>
             </ul>
         </div>
-        <div style="flex: 60%;">
+        <div style="flex: 50%;">
             <h2 class="portfolio"> faq </h2>
             <hr/>
             <p> 
-                My name is Nathan Hammer and I am from Pittsburgh, Pennsylvania.
-                I am currently pursuing a B.A. in Digital Media, Arts, and Technology @ Penn State Behrend.
-                Most of my work revolves around programming, web design, game development, and server management.
-            </p>
+            HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi 
+            </p> 
         </div>
     </div>
     `,
@@ -58,7 +58,7 @@ const pages = {
 
     resume: 
     `
-    <h2> resumé </h2>
+    <h2 class="portfolio"> resumé </h2>
     <p> :) </p>
     `
 }
