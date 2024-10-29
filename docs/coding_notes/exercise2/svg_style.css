@@ -1,0 +1,9 @@
+#ex2_circle{
+    fill: blue;
+    transition: all 1s ease;
+    transform-origin:center;
+}
+#ex2_circle:hover{
+    transform: scale(120%);
+    fill: cyan;
+}
