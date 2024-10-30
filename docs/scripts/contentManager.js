@@ -12,9 +12,9 @@ const pages = {
         </p>
         <p>
             I have always been curious about the inner-workings of computers and video games.
-            At a young age, I taught myself how to make Team Fortress 2 levels, which sparked my passion for software that synergize artistry with mechanical design.
+            At a young age, I taught myself how to make Team Fortress 2 levels, which sparked a passion for software that synergizes artistry with mechanical design.
             This lead to me dabbling into programming, so that I could create games of my own.
-            Later, I started to experiment with servers and Linux, developing an understanding of network infrastructure and security.
+            Later, I started to experiment with Linux servers, developing an understanding of network infrastructure and security.
             Now, here I am, studying all of these things in college. Whenever I have the free time, I like to work on game prototypes or engage in spontaneous coding challenges.
         </p>
         <p>
