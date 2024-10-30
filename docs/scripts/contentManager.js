@@ -6,7 +6,7 @@ const pages = {
         <h2 class="portfolio"> about </h2>
         <hr/>
         <p> 
-            My name is Nathan Hammer and I am from Pittsburgh, Pennsylvania.
+            My name is Nate Hammer and I am from Pittsburgh, Pennsylvania.
             I am currently pursuing a <b>B.A. in Digital Media, Arts, and Technology @ Penn State Behrend</b>, along with <b>minors in Game Development and Marketing</b>.
             Most of my work revolves around programming, web design, game development, and server management.
         </p>
@@ -25,17 +25,17 @@ const pages = {
     </div>
     <div style="display: flex;">
         <div style="flex: 50%;">
-            <h2 class="portfolio"> socials </h2>
+            <h3 class="portfolio"> socials </h3>
             <hr/>
-            <p> I can be found on various social medias and forums:
+            <p> I can be found on various social medias platforms:
             <ul>
-                <li>GitHub</li>
-                <li>YouTube</li>
-                <li>LinkedIn</li>
+                <li><a href="https://github.com/nhammer514">GitHub</a></li>
+                <li><a href="https://www.youtube.com/@physkill">YouTube</a></li>
+                <li><a href="https://www.linkedin.com/in/natehammer/">LinkedIn</a></li>
             </ul>
         </div>
         <div style="flex: 50%;">
-            <h2 class="portfolio"> faq </h2>
+            <h3 class="portfolio"> faq </h3>
             <hr/>
             <p> 
             HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi 
@@ -44,10 +44,10 @@ const pages = {
     </div>
     `,
 
-    blog: 
+    notes: 
     `
-    <h2 class="portfolio"> blog </h2>
-    <p> This stuff should work. </p>
+    <h2 class="portfolio"> notes </h2>
+    <p> This page is for the notes that I write in class. </p>
     `,
 
     projects: 
