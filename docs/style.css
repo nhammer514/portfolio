@@ -72,6 +72,8 @@ div.panel{
 }
 #grid-container.defocus #header #logo h1{
     font-size: 5vh;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .anim_reload{
@@ -201,5 +203,9 @@ ul{
 
 hr{
     width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 25px;
     color:#B65DE2; 
 }
