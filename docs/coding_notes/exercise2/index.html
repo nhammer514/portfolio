@@ -10,26 +10,23 @@
         <h1 style="text-align: center;"> DIGIT400 Javascript Exercise 2</h1>
         <div style="margin: auto; text-align: center;"><a href="../../index.html"> Return to Homepage </a></div>
         <div class="panel">
-            <h2> SVG Animation </h2>
+            <h2> SVG Animation & Manipulation</h2>
             <p> Elements and graphics on webpages are commonly made using SVG. One of the most useful features of SVG is animation. </p><br/>
             <svg width="100%" height="250">
                 <circle cx="50%" cy="125" r="100" stroke="black" stroke-width="1" fill="blue">
                     <animate attributeName="r" values="100;125;100" dur="1s" repeatCount="indefinite"/>
                 </circle>
             </svg>
-            <p> Here is the HTML code of the previous example. </p>
 <pre>
 &lt;circle cx="50%" cy="125" r="100" stroke="black" stroke-width="1" fill="blue"&gt;
     &lt;animate attributeName="r" values="100;125;100" dur="3s" repeatCount="indefinite"/&gt;
 &lt;/circle&gt;
 </pre>
-            <h2> SVG Manipulation </h2>
-            <p> SVG can be manipulated in various ways, including CSS. </p><br/>
             <svg width="100%" height="250">
                 <circle cx="50%" cy="125" r="100" stroke="black" stroke-width="1" fill="blue" id="ex2_circle"/>
                 <text x="50%" y="125" text-anchor="middle" fill="white"> Hover over me!</text>
             </svg>
-            <pre>
+ <pre>
 #ex2_circle{
     fill: blue;
     transition: all 1s ease;
