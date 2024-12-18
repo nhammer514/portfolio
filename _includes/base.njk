@@ -11,10 +11,19 @@
      <meta http-equiv="X-UA-Compatible" 
            content="ie=edge">
      <title></title>
+     <link rel="stylesheet" href="css/style.css">
+     <script src="scripts/contentManager.js"></script>
+     <script src="scripts/pageChange.js"></script>
 </head>
 <body>
-
-    {{ content | safe }}
-    
+    <div id="grid-container" class="focus">
+        <div id="header">
+            {% include "layouts/logo.njk" %}
+            {% include "layouts/nav.html" %}
+        </div>
+        <div id="main" class="panel">
+            {% include "layouts/content.html" %}
+        </div>
+    </div>
 </body>
 </html>
