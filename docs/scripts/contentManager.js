@@ -24,7 +24,7 @@ const pages = {
         </p>
     </div>
     <div style="display: flex;">
-        <div style="flex: 50%;">
+        <div style="flex: 100%;">
             <h3 class="portfolio"> socials </h3>
             <hr/>
             <p> I can be found on various social medias platforms:
@@ -33,13 +33,6 @@ const pages = {
                 <li><a href="https://www.youtube.com/@physkill">YouTube</a></li>
                 <li><a href="https://www.linkedin.com/in/natehammer/">LinkedIn</a></li>
             </ul>
-        </div>
-        <div style="flex: 50%;">
-            <h3 class="portfolio"> faq </h3>
-            <hr/>
-            <p> 
-            HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi 
-            </p> 
         </div>
     </div>
     `,
@@ -53,13 +46,21 @@ const pages = {
     projects: 
     `
     <h2 class="portfolio"> projects </h2>
-    <p> Hello world! </p>
+    <hr/>
+    <div style="text-align: center; margin: auto;">
+        <a><img src="images/overdose.png" style="border-radius: 5%;"/></a>
+        <a href="https://nhammer514.github.io/kryptik/"><img src="images/kryptik.png" style="border-radius: 5%;"/></a>
+    </div>
     `,
 
     resume: 
     `
-    <h2 class="portfolio"> resumé </h2>
-    <p> :) </p>
+    <object class="pdf" 
+            data=
+            "files/resume.pdf"
+            width="100%"
+            height="100%">
+    </object>
     `
 }
 
