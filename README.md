@@ -1,2 +1,0 @@
-# portfolio
-An actualized portfolio

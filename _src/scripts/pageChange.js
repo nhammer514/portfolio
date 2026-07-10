@@ -5,6 +5,16 @@ function openPage(el_id){
     let contentElement = document.getElementById("content");
     let pageTitle = el_id.split("-")[1];
     let newContent = fetchContents(pageTitle);
+    
+    mainBodyElement.addEventListener('animationend', function() {
+        if (mainBodyElement.classList.contains("anim_reload")){
+            mainBodyElement.classList.remove("anim_reload");
+            mainBodyElement.classList.add("anim_reloadFinish");
+        }
+        else{
+            contentElement.innerHTML = newContent;
+        }
+    });
 
     if (gridElement.classList.contains("focus")){
         mainBodyElement.firstElementChild.style.display = "block";
@@ -19,14 +29,4 @@ function openPage(el_id){
     if (mainBodyElement.classList.contains("anim_reloadFinish")){
         mainBodyElement.classList.remove("anim_reloadFinish");
     };
-
-    mainBodyElement.addEventListener('animationend', function() {
-        if (mainBodyElement.classList.contains("anim_reload")){
-            mainBodyElement.classList.remove("anim_reload");
-            mainBodyElement.classList.add("anim_reloadFinish");
-        }
-        else{
-            contentElement.innerHTML = newContent;
-        }
-    });
 };
