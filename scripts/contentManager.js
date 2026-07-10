@@ -5,26 +5,15 @@ const pages = {
     <div>
         <h2 class="portfolio"> about </h2>
         <hr/>
-        <p> 
-            My name is Nate Hammer and I am from Pittsburgh, Pennsylvania.
-            I am currently pursuing a <b>B.A. in Digital Media, Arts, and Technology @ Penn State Behrend</b>, along with <b>minors in Game Development and Marketing</b>.
-            Most of my work revolves around programming, web design, game development, and server management.
-        </p>
-        <p>
-            I have always been curious about the inner-workings of computers and video games.
-            At a young age, I taught myself how to make levels for a game called Garry's Mod, which sparked my passion for software that synergizes artistry with mechanical design.
-            This lead to me dabbling into modding and programming, so that I could develop games of my own.
-            Later, I started to experiment with Linux servers to create websites, learning about network infrastructure and security.
-            Now, here I am, studying all of these things in college. Whenever I have the free time, I like to work on game prototypes or engage in spontaneous coding challenges.
-        </p>
-        <p>
-            
-            I am always exercising my skill set -- in and outside of school.
-            There is never a moment where I am not learning and applying new concepts. 
-        </p>
+        <p>My name is <i>Nathan Hammer</i>. I am an developer, artist, and game designer.</p>
+
+        <p>I graduated from Penn State Behrend with a <b> Bachelor of Arts in Digital Media, Arts, and Technology</b>, along with a minor in <b>Game Development</b>. From a young age, I have been interested in programming, drawing, and design, especially the ways digital tools can feel intuitive, expressive, and engaging.</p>
+
+
+        <p>I am especially interested in the connection between creativity and technical design. Whether I am developing a game, designing a website, or creating visual work, I enjoy building experiences that feel intuitive and expressive. In other words, technical problem-solving with creative solutions is my forte. </p>
     </div>
     <div style="display: flex;">
-        <div style="flex: 50%;">
+        <div style="flex: 100%;">
             <h3 class="portfolio"> socials </h3>
             <hr/>
             <p> I can be found on various social medias platforms:
@@ -33,13 +22,6 @@ const pages = {
                 <li><a href="https://www.youtube.com/@physkill">YouTube</a></li>
                 <li><a href="https://www.linkedin.com/in/natehammer/">LinkedIn</a></li>
             </ul>
-        </div>
-        <div style="flex: 50%;">
-            <h3 class="portfolio"> faq </h3>
-            <hr/>
-            <p> 
-            HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi HI HI HI hi 
-            </p> 
         </div>
     </div>
     `,
@@ -54,14 +36,83 @@ const pages = {
     `
     <h2 class="portfolio"> projects </h2>
     <hr/>
-    <p> Hello world! </p>
+    <div class="portfolio-grid">
+        <article class="project-card">
+            <a href="https://brahmavidya.itch.io/mouse-messiah">
+            <div class="image-wrap">
+                <img src="../images/portfolio/mouse_messiah.png" alt="Project 1 screenshot">
+                <div class="project-overlay">
+                    <div class="project-text">
+                        <span class="project-title">Mouse Messiah</span>
+                        <small class="project-category">Indie game passion project</small>
+                        <small class="project-category">( 2025 - Present )</small>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </article>
+        <article class="project-card">
+            <a href="https://github.com/nhammer514/Scaniverse-Galley">
+            <div class="image-wrap">
+                <img src="../images/portfolio/scaniverse.png" alt="Project 3 screenshot">
+                <div class="project-overlay">
+                    <div class="project-text">
+                        <span class="project-title">Scaniverse Gallery</span>
+                        <small class="project-category">Game for academic showcase</small>
+                        <small class="project-category">( 2026 )</small>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </article>
+        <article class="project-card">
+            <a href="https://brahmavidya.itch.io/mouse-messiah">
+            <div class="image-wrap">
+                <img src="../images/portfolio/zone.png" alt="Project 4 screenshot">
+                <div class="project-overlay">
+                    <div class="project-text">
+                        <span class="project-title">seattlevidya</span>
+                        <small class="project-category">Silly YouTube animations</small>
+                        <small class="project-category">( 2017 - Present )</small>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </article>
+        <article class="project-card">
+            <div class="image-wrap">
+                <img src="../images/portfolio/burkhart.png" alt="Project 5 screenshot">
+                <div class="project-overlay">
+                    <div class="project-text">
+                        <span class="project-title">Burkhart Building Industries</span>
+                        <small class="project-category">Contract website</small>
+                        <small class="project-category">( 2026 )</small>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="project-card">
+            <a href="https://frankensteinvariorum.org/">
+            <div class="image-wrap">
+                <img src="../images/portfolio/frankenstein.png" alt="Project 5 screenshot">
+                <div class="project-overlay">
+                    <div class="project-text">
+                        <span class="project-title">Frankenstein Variorum</span>
+                        <small class="project-category">Student Assistant for XML</small>
+                        <small class="project-category">( 2023 )</small>
+                    </div>
+                </div>
+            </div>
+        </a>
+        </article>
+    </div>
     `,
 
     resume: 
     `
     <h2 class="portfolio"> resumé </h2>
     <hr/>
-    <p> :) </p>
+    <embed src="files/nhammer_resume.pdf" width="100%" height="100%" />
     `
 }
 
