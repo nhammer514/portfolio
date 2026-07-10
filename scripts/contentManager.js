@@ -16,7 +16,7 @@ const pages = {
         <div style="flex: 100%;">
             <h3 class="portfolio"> socials </h3>
             <hr/>
-            <p> I can be found on various social medias platforms:
+            <p> I can be found on various social media platforms:
             <ul>
                 <li><a href="https://github.com/nhammer514">GitHub</a></li>
                 <li><a href="https://www.youtube.com/@physkill">YouTube</a></li>
