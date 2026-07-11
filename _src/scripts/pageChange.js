@@ -3,6 +3,7 @@ function openPage(el_id){
     let navElement = document.getElementById("nav");
     let mainBodyElement = document.getElementById("main");
     let contentElement = document.getElementById("content");
+    let logoElement = document.getElementById("logo");
     let pageTitle = el_id.split("-")[1];
     let newContent = fetchContents(pageTitle);
     
@@ -21,6 +22,7 @@ function openPage(el_id){
         gridElement.classList.replace("focus", "defocus");
         navElement.removeChild(navElement.children[0]);
         contentElement.innerHTML = newContent;
+        mainBodyElement.style.opacity = "1";
     }
     else if (mainBodyElement.classList.contains("anim_reload") == false){
         mainBodyElement.classList.add("anim_reload");
