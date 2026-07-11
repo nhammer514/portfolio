@@ -40,7 +40,7 @@ const pages = {
         <article class="project-card">
             <a href="https://brahmavidya.itch.io/mouse-messiah">
             <div class="image-wrap">
-                <img src="../images/portfolio/mouse_messiah.png" alt="Project 1 screenshot">
+                <img src="./images/portfolio/mouse_messiah.png" alt="Project 1 screenshot">
                 <div class="project-overlay">
                     <div class="project-text">
                         <span class="project-title">Mouse Messiah</span>
@@ -54,7 +54,7 @@ const pages = {
         <article class="project-card">
             <a href="https://github.com/nhammer514/Scaniverse-Galley">
             <div class="image-wrap">
-                <img src="../images/portfolio/scaniverse.png" alt="Project 3 screenshot">
+                <img src="./images/portfolio/scaniverse.png" alt="Project 3 screenshot">
                 <div class="project-overlay">
                     <div class="project-text">
                         <span class="project-title">Scaniverse Gallery</span>
@@ -68,7 +68,7 @@ const pages = {
         <article class="project-card">
             <a href="https://brahmavidya.itch.io/mouse-messiah">
             <div class="image-wrap">
-                <img src="../images/portfolio/zone.png" alt="Project 4 screenshot">
+                <img src="./images/portfolio/zone.png" alt="Project 4 screenshot">
                 <div class="project-overlay">
                     <div class="project-text">
                         <span class="project-title">seattlevidya</span>
@@ -81,7 +81,7 @@ const pages = {
         </article>
         <article class="project-card">
             <div class="image-wrap">
-                <img src="../images/portfolio/burkhart.png" alt="Project 5 screenshot">
+                <img src="./images/portfolio/burkhart.png" alt="Project 5 screenshot">
                 <div class="project-overlay">
                     <div class="project-text">
                         <span class="project-title">Burkhart Building Industries</span>
@@ -94,7 +94,7 @@ const pages = {
         <article class="project-card">
             <a href="https://frankensteinvariorum.org/">
             <div class="image-wrap">
-                <img src="../images/portfolio/frankenstein.png" alt="Project 5 screenshot">
+                <img src="./images/portfolio/frankenstein.png" alt="Project 5 screenshot">
                 <div class="project-overlay">
                     <div class="project-text">
                         <span class="project-title">Frankenstein Variorum</span>
