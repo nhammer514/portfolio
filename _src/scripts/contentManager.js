@@ -66,27 +66,13 @@ const pages = {
             </a>
         </article>
         <article class="project-card">
-            <a href="https://brahmavidya.itch.io/mouse-messiah">
-            <div class="image-wrap">
-                <img src="./images/portfolio/zone.png" alt="Project 4 screenshot">
-                <div class="project-overlay">
-                    <div class="project-text">
-                        <span class="project-title">seattlevidya</span>
-                        <small class="project-category">Silly YouTube animations</small>
-                        <small class="project-category">( 2017 - Present )</small>
-                    </div>
-                </div>
-            </div>
-            </a>
-        </article>
-        <article class="project-card">
             <div class="image-wrap">
                 <img src="./images/portfolio/burkhart.png" alt="Project 5 screenshot">
                 <div class="project-overlay">
                     <div class="project-text">
                         <span class="project-title">Burkhart Building Industries</span>
                         <small class="project-category">Contract website</small>
-                        <small class="project-category">( 2026 )</small>
+                        <small class="project-category">( 2025 )</small>
                     </div>
                 </div>
             </div>
